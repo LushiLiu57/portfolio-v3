@@ -1,0 +1,159 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(42, 42, 42);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home h1{
+    font-size:90px;
+  }
+
+  .home h3{
+    font-size:30px;
+    margin-bottom:5%;
+  }
+
+  .introview{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .left-side {
+    width:45%;
+    text-align:left;
+    margin-bottom:8%;
+    margin-left:8%;
+    border-right: 6px solid firebrick;
+    padding:2%;
+  }
+
+  .right-side {
+    font-size:200px;
+    justify-content: center;
+    align-items: center;
+    color:mediumseagreen;
+    margin-left:150px;
+  }
+
+  .my-image {
+    width:40%;
+    height:40%;
+    float:left;
+  }
+  
+  .buttons {
+    position:absolute;
+    bottom:1vh;
+  }
+
+  .button {
+    margin:20px;
+    width:100px;
+    height:50px;
+    border-width:3px;
+    font-size:15px;
+  }
+  
+  .icons a{
+    font-size:60px;
+    position:absolute;
+    top:10px;
+    right:10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.corner-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 8vh solid transparent;
+    border-left: 8vh solid rgb(255, 0, 0);
+}
+
+.education {
+    display:flex;
+    flex-direction:row;
+    text-align:left;
+    margin-bottom:8%;
+}
+
+.education h4{
+  font-size:20px;
+}
+
+.school-info {
+    width:20%;
+    margin-left:5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.school-info h2 {
+    font-size:25px;
+    margin-bottom:15%;
+}
+
+.courses {
+    width:20%;
+    margin-left:5%;
+    /* border:5px solid dodgerblue; */
+    border:5px solid firebrick;
+    border-style:double;
+    padding:7px;
+    margin-bottom:5px;
+}
+
+.course-list {
+    list-style:none;
+}
+
+.course h5{
+  font-size:15px;
+}
+
+.skills {
+    display:flex;
+    flex-direction:row;
+    text-align:left;
+    margin-bottom:10%;
+}
+
+.skills span{
+  font-size:15px;
+}
+
+.list {
+    margin-left:5%;
+    list-style:None;
+}
+
+.skill-type {
+    width:80%;
+    margin-bottom:10%;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+}
